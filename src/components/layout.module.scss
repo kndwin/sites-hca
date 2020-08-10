@@ -1,7 +1,35 @@
-$color-bg: #282828;
-$color-fg: #fbf1c7;
+$color-bg: #fff;
+$color-fg: #000;
 
 .container {
   background-color: $color-bg;
-  color: $color-fg
+  color: $color-fg;
+  display: flex;
+  min-height: 100vh; 
+  flex-direction: column;
+}
+
+.nav_wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.link_wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.link {
+  margin: 5px 25px;
+  font-size: 14pt;
+}
+
+.body {
+  flex-grow: 1;
+}
+
+.flex {
+  display: flex;
 }

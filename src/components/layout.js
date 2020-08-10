@@ -17,14 +17,35 @@ export default function Layout ({ children }) {
 
   return (
     <div className={styles.container}>
-      <h1>{data.site.siteMetadata.title}</h1>
-      <nav>
-        <Link to="/">Home</Link>
-        <Link to="/about/">About</Link>
-        <Link to="/contact/">Contact</Link>
-        <Link to="/blog/">Blog</Link>
+      <nav className={styles.nav_wrapper}>
+        <h1>
+          {data.site.siteMetadata.title}
+        </h1>
+        <div className={styles.link_wrapper}>
+          <Link to="/"
+            className={styles.link}>
+            Home
+          </Link>
+          <Link to="/community-blog/"
+            className={styles.link}>
+            Community Blog
+          </Link>
+          <Link to="/about-us/"
+            className={styles.link}>
+            About Us
+          </Link>
+          <Link to="/contact-us/"
+            className={styles.link}>
+            Contact Us
+          </Link>
+        </div>
       </nav>
-      { children }
+      <body className={styles.body}>
+        { children }
+      </body>
+      <footer className={styles.footer}>
+        I'm a footer
+      </footer>
     </div>
   )
 }
