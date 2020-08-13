@@ -7,7 +7,8 @@
 module.exports = {
   /* Your site config here */
   siteMetadata: {
-    title: 'Holroyd Community Aid'
+    title: 'Holroyd Community Aid',
+    phone: '9637 7391'
   },
   plugins: [
     'gatsby-plugin-sass',

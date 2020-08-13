@@ -2,25 +2,47 @@ import React from "react"
 import styles from "./layout.module.scss"
 import { Link, graphql, useStaticQuery } from 'gatsby'
 
-export default function Layout ({ children }) {
+export default function Layout ({ children, page }) {
   const data = useStaticQuery(
     graphql`
       query {
         site {
           siteMetadata {
             title
+            phone
           }
         }
       }
     `
   )
 
+  const setBanner = (page) => {
+    let banner;
+    switch (page) {
+      case 'index':
+        banner = 'https://source.unsplash.com/random/1040x400'
+      case 'about-us':
+        banner = 'https://source.unsplash.com/random/1040x400'
+      case 'community-blog':
+        banner = 'https://source.unsplash.com/random/1040x400'
+      case 'contact-us':
+        banner = 'https://source.unsplash.com/random/1040x400'
+      default:
+        break;
+    }
+    return banner;
+  }
+
   return (
     <div className={styles.container}>
+      <img src={setBanner(page)} 
+        className={styles.banner}
+      />
+      <div className={styles.banner_bar} />
       <nav className={styles.nav_wrapper}>
-        <h1>
-          {data.site.siteMetadata.title}
-        </h1>
+        <img src="https://source.unsplash.com/random/200x100" 
+          className={styles.logo}
+        />
         <div className={styles.link_wrapper}>
           <Link to="/"
             className={styles.link}>
@@ -38,6 +60,10 @@ export default function Layout ({ children }) {
             className={styles.link}>
             Contact Us
           </Link>
+          <img src="https://simpleicons.org/icons/adobephonegap.svg" 
+            className={styles.icon}
+          />
+          {data.site.siteMetadata.phone}
         </div>
       </nav>
       <body className={styles.body}>

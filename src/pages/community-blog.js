@@ -5,7 +5,7 @@ import { graphql } from 'gatsby'
 export default function CommunityBlog ({ data }) {
   console.log(data)
   return (
-    <Layout>
+    <Layout page='community-blog'>
       <h1>Community blog</h1>
       <h4>{data.allMarkdownRemark.totalCount}</h4>
       {data.allMarkdownRemark.edges.map(({node}) => (
