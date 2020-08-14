@@ -21,12 +21,16 @@ export default function Layout ({ children, page }) {
     switch (page) {
       case 'index':
         banner = 'https://source.unsplash.com/random/1040x400'
+        break;
       case 'about-us':
         banner = 'https://source.unsplash.com/random/1040x400'
+        break;
       case 'community-blog':
         banner = 'https://source.unsplash.com/random/1040x400'
+        break;
       case 'contact-us':
         banner = 'https://source.unsplash.com/random/1040x400'
+        break;
       default:
         break;
     }
