@@ -14,11 +14,13 @@ module.exports = {
     'gatsby-plugin-sass',
     'gatsby-transformer-remark',
     'gatsby-plugin-styled-components',
+    'gatsby-plugin-sharp',
+    'gatsby-transformer-sharp',
     {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `src`,
-        path: `${__dirname}/src/`
+        path: `${__dirname}/src`
       }
     }
   ],
