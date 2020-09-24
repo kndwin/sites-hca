@@ -3,6 +3,10 @@
     "develop": {
       "plugins": [
         {
+          "name": "babel-plugin-lodash",
+          "options": {}
+        },
+        {
           "name": "babel-plugin-styled-components",
           "stage": "develop",
           "options": {
@@ -11,21 +15,21 @@
           }
         },
         {
-          "name": "/home/knd/projects/sites/hca/node_modules/@babel/plugin-proposal-optional-chaining/lib/index.js",
+          "name": "/home/knd/sites/hca/node_modules/@babel/plugin-proposal-optional-chaining/lib/index.js",
           "options": {}
         },
         {
-          "name": "/home/knd/projects/sites/hca/node_modules/@babel/plugin-proposal-nullish-coalescing-operator/lib/index.js",
+          "name": "/home/knd/sites/hca/node_modules/@babel/plugin-proposal-nullish-coalescing-operator/lib/index.js",
           "options": {}
         },
         {
-          "name": "/home/knd/projects/sites/hca/node_modules/@babel/plugin-proposal-numeric-separator/lib/index.js",
+          "name": "/home/knd/sites/hca/node_modules/@babel/plugin-proposal-numeric-separator/lib/index.js",
           "options": {}
         }
       ],
       "presets": [
         {
-          "name": "/home/knd/projects/sites/hca/node_modules/@babel/preset-typescript/lib/index.js",
+          "name": "/home/knd/sites/hca/node_modules/@babel/preset-typescript/lib/index.js",
           "options": {
             "plugins": []
           }
@@ -39,15 +43,19 @@
     "develop-html": {
       "plugins": [
         {
-          "name": "/home/knd/projects/sites/hca/node_modules/@babel/plugin-proposal-optional-chaining/lib/index.js",
+          "name": "babel-plugin-lodash",
           "options": {}
         },
         {
-          "name": "/home/knd/projects/sites/hca/node_modules/@babel/plugin-proposal-nullish-coalescing-operator/lib/index.js",
+          "name": "/home/knd/sites/hca/node_modules/@babel/plugin-proposal-optional-chaining/lib/index.js",
           "options": {}
         },
         {
-          "name": "/home/knd/projects/sites/hca/node_modules/@babel/plugin-proposal-numeric-separator/lib/index.js",
+          "name": "/home/knd/sites/hca/node_modules/@babel/plugin-proposal-nullish-coalescing-operator/lib/index.js",
+          "options": {}
+        },
+        {
+          "name": "/home/knd/sites/hca/node_modules/@babel/plugin-proposal-numeric-separator/lib/index.js",
           "options": {}
         },
         {
@@ -61,7 +69,7 @@
       ],
       "presets": [
         {
-          "name": "/home/knd/projects/sites/hca/node_modules/@babel/preset-typescript/lib/index.js",
+          "name": "/home/knd/sites/hca/node_modules/@babel/preset-typescript/lib/index.js",
           "options": {
             "plugins": []
           }
@@ -75,15 +83,19 @@
     "build-html": {
       "plugins": [
         {
-          "name": "/home/knd/projects/sites/hca/node_modules/@babel/plugin-proposal-optional-chaining/lib/index.js",
+          "name": "babel-plugin-lodash",
           "options": {}
         },
         {
-          "name": "/home/knd/projects/sites/hca/node_modules/@babel/plugin-proposal-nullish-coalescing-operator/lib/index.js",
+          "name": "/home/knd/sites/hca/node_modules/@babel/plugin-proposal-optional-chaining/lib/index.js",
           "options": {}
         },
         {
-          "name": "/home/knd/projects/sites/hca/node_modules/@babel/plugin-proposal-numeric-separator/lib/index.js",
+          "name": "/home/knd/sites/hca/node_modules/@babel/plugin-proposal-nullish-coalescing-operator/lib/index.js",
+          "options": {}
+        },
+        {
+          "name": "/home/knd/sites/hca/node_modules/@babel/plugin-proposal-numeric-separator/lib/index.js",
           "options": {}
         },
         {
@@ -97,7 +109,7 @@
       ],
       "presets": [
         {
-          "name": "/home/knd/projects/sites/hca/node_modules/@babel/preset-typescript/lib/index.js",
+          "name": "/home/knd/sites/hca/node_modules/@babel/preset-typescript/lib/index.js",
           "options": {
             "plugins": []
           }
@@ -111,15 +123,19 @@
     "build-javascript": {
       "plugins": [
         {
-          "name": "/home/knd/projects/sites/hca/node_modules/@babel/plugin-proposal-optional-chaining/lib/index.js",
+          "name": "babel-plugin-lodash",
           "options": {}
         },
         {
-          "name": "/home/knd/projects/sites/hca/node_modules/@babel/plugin-proposal-nullish-coalescing-operator/lib/index.js",
+          "name": "/home/knd/sites/hca/node_modules/@babel/plugin-proposal-optional-chaining/lib/index.js",
           "options": {}
         },
         {
-          "name": "/home/knd/projects/sites/hca/node_modules/@babel/plugin-proposal-numeric-separator/lib/index.js",
+          "name": "/home/knd/sites/hca/node_modules/@babel/plugin-proposal-nullish-coalescing-operator/lib/index.js",
+          "options": {}
+        },
+        {
+          "name": "/home/knd/sites/hca/node_modules/@babel/plugin-proposal-numeric-separator/lib/index.js",
           "options": {}
         },
         {
@@ -133,7 +149,7 @@
       ],
       "presets": [
         {
-          "name": "/home/knd/projects/sites/hca/node_modules/@babel/preset-typescript/lib/index.js",
+          "name": "/home/knd/sites/hca/node_modules/@babel/preset-typescript/lib/index.js",
           "options": {
             "plugins": []
           }
